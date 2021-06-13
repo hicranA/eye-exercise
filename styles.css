@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #14495e;
+
+}
+
+/* Using the border-radius property
+to draw the semi-circle*/
+
+.half-circle {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-30%, -50%);
+ width: 200px;
+ height: 100px; /* as the half of the width */
+ background-color: none;
+border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+ border-top-right-radius: 110px; /* 100 px of height + 10px of border */
+border: 10px solid ;
+border-bottom: 0;
+}   
+.half-circle2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+   width: 200px;
+  height: 100px; /* as the half of the width */
+  background-color: none;
+ border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+ border-top-right-radius: 110px; /* 100px of height + 10px of border */
+ border: 10px solid ;
+ border-bottom: 0;
+}
+
+.half-circle3{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-30%, -50%);
+   width: 200px;
+  height: 100px; /* as the half of the width */
+  background-color: red;
+ border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+ border-top-right-radius: 110px; /* 100px of height + 10px of border */
+ border: 10px solid ;
+ border-bottom: 10;
+}
+
+.eyes {
+position: absolute;
+top: 50%;
+left: 22%;
+transform: translate(-30%, -60%);
+width: 100%;
+text-align: center;
+}
+.eye {
+width: 240px;
+height: 120px;
+background: #fff;
+display: inline-block;
+margin: 55px;
+border-radius: 50%;
+position: relative;
+overflow: hidden;
+}
+
+.ball {
+width: 80px;
+height: 80px;
+background: #000;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 50%;
+}
